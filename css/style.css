@@ -124,6 +124,10 @@ h1 {
 
 @media (max-width: 950px) {
   
+  #top {
+    font-size: 40px
+  }
+
   #skills {
     display: none;
   }
