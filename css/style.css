@@ -64,8 +64,8 @@ li a {
 }
 
 #me {
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
 }
 
 #skills li {
@@ -102,9 +102,10 @@ li a {
 
 .work {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 .placeholder:hover {
@@ -112,7 +113,7 @@ li a {
   padding: 2px;
 }
 
-.placeholder {
+.placeholder{
   height: 250px;
   width: 250px;
   padding: 5px;
@@ -121,6 +122,7 @@ li a {
 h1 {
   font-family: Architects Daughter;
   margin: 15px;
+  font-size: 40px;
 }
 
 @media (max-width: 950px) {
@@ -130,21 +132,12 @@ h1 {
   }
 
   #skills {
-    display: none;
+    display: inline-block;
   }
   
   .placeholder {
-    height: 100px;
-    width: 100px;
-    padding: 2px;
-  }
-  
-  #portfolio a {
-    min-height: 100px;
-    min-width: 100px;
-    padding: 2px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
 
   .wide-pic {
