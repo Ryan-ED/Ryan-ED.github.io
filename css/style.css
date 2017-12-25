@@ -1,9 +1,6 @@
 body {
   background-color: black;
   padding-top: 70px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 #top {
@@ -31,9 +28,7 @@ body {
 }
 
 .section {
-  height: auto;
-  min-height: 300px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   margin-bottom: 20px;
   padding-top: 15px;
@@ -105,7 +100,6 @@ li a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  align-content: space-around;
 }
 
 .placeholder:hover {
@@ -138,10 +132,6 @@ h1 {
   .placeholder {
     height: 150px;
     width: 150px;
-  }
-
-  .wide-pic {
-    display: none;
   }
 
   span {
