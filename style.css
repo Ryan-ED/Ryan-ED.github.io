@@ -1,0 +1,141 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #576268;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#nav {
+    background-color: #0187D0;
+    padding-left: 6%;
+}
+
+#nav a {
+    transition: color 0.8s;
+    transition: border 0.2s;
+}
+
+.active {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+#top {
+    background-color: #0AA1DA;
+}
+
+#top div.col {
+    font-weight: 300;
+    color: rgb(213, 223, 223);
+    font-size: 135%;
+}
+
+.margin5 {
+    margin: 10%;
+    margin-top: 5%;
+}
+
+img.margin5 {
+    height: 200px;
+}
+
+div.margin5 h1 {
+    font-weight: 300;
+    color: white;
+    margin-bottom: -2%;
+}
+
+#desc {
+    color: white;
+    font-weight: 300;
+    margin: 3% 5%;
+}
+
+#main {
+    background-color: white;
+    padding: 3% 5%;
+    height: 100%;
+    width: 100%;
+}
+
+#main h5 {
+    color: #0AA1DA;
+}
+
+#main .right-shadow {
+    box-shadow: 5px 0px 2px -2px #ccc;
+}
+
+#main .s7 {
+    padding-left: 3%;
+}
+
+#personal {
+    margin-bottom: 10%;
+}
+
+#hobbies span {
+    display: block;
+    font-weight: bold;
+}
+
+#hobbies div.row {
+    margin-left: -10px;
+}
+
+.tabs {
+    margin-bottom: 7%;
+    color: #0AA1DA;
+}
+
+.tabs .indicator {
+    background-color: #0AA1DA;
+}
+
+.tabs .tab a.active {
+    color: #0AA1DA;
+}
+  
+  .tabs .tab a:hover {
+    color: #0AA1DA;
+}
+  
+  .tabs .tab a {
+    color: #0AA1DA;
+}
+
+#skills, #projects {
+    color: black;
+    margin-top: 1%;
+}
+
+#skills p {
+    margin-top: 5%;
+}
+
+.progress .determinate {
+    background-color: #0AA1DA;
+}
+
+#contact {
+    background-color: #0187D0;
+}
+
+#contact .row {
+    display: flex;
+    align-content: space-between;
+}
+
+#contact a {
+    color: white;
+    transition: color 0.4s;
+}
+
+#contact a:hover {
+    color: #576268;
+}

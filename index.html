@@ -1,125 +1,269 @@
 <!DOCTYPE html>
-<html >
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="images/favicon.ico?" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico?" type="image/x-icon">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-<link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Architects+Daughter|Archivo+Black|Lemonada|Source+Code+Pro'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio webpage for Ryan Daniels - Web Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-<link rel="stylesheet" href="css/style.css">
-  
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav"><i class="fa fa-caret-down fa-inverse"></i></button>
-      <a class="navbar-brand" href="#top">
-        <span style="font-family: 'Source Code Pro', Monospace; color:green;"><i class="fa fa-code"></i>Ryan</span></a>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+<header>
+    <div class="navbar-fixed">
+        <nav>
+            <div id="nav" class="nav-wrapper">
+                <ul id="nav-mobile" class="left">
+                    <li><a href="#top">HELLO</a></li>
+                    <li><a href="#desc">ABOUT</a></li>
+                    <li><a href="#main">PORTFOLIO</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <div class="collapse navbar-collapse" id="nav">
-      <ul class="nav navbar-nav">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-  </nav>
-
-  <div class="jumbotron text-center" id="top">
-    <span>RYAN DANIELS</span>
-    <span style="font-size:40%; color:#00b712">Front End Web Developer</span>
-  </div>
-<div class="container section" id="about">
-  <div style="display:flex; justify-content:center; align-items:center">
-    <img id="me" class="img-responsive img-circle" src="/images/me.jpg" alt="Picture of Ryan" />
-    <h1>About Me</h1>
-  </div>
-  <div class="row" style="display:flex; justify-content:center; align-items:flex-start;">
-    <div class="col-md-7 highlight">
-      <p>
-        <span>By day...</span>
-        <br><br> I am a college student currently completing a diploma in Information Technology - Software Development. I major in C# ASP.NET MVC development.  I am also self-learning Full Stack Web Development through <a href="https://www.freecodecamp.com"><i class="fab fa-free-code-camp"></i> freeCodeCamp.org</a> and various online resources. I have an eagerness
-        to learn and constantly improve. I currently serve as an intern web developer at <a href="http://sobantu.co.za" target="_blank">Sobantu Technologies</a>, where I hope to gain the
-        skills and experience needed for web development.
-        <br><br>
-        <span>And by night...</span>
-        <br><br> I am a music lover and guitar player. Music is my ultimate passion and I love playing guitar. Acoustic, pop, jazz, funk, soul and folk music are my favourite genres to listen to and to play.
-      </p>
-    </div>
-    <div class="col-md-1">
-      <!-- Empty div to make extra space between p and ul -->
-    </div>
-    <div class="col-md-4 highlight" id="skills">
-
-      <h3 style="font-size:30px; font-family:Source Code Pro; color:green">My skills:</h3>
-      <ul class="fa-ul" >
-        <li><i class="fa-li fab fa-html5"></i> HTML</li>
-        <li><i class="fa-li fab fa-css3-alt"></i> CSS</li>
-        <li><i class="fa-li fa fa-check-square"></i> Bootstrap</li>
-        <li><i class="fa-li fab fa-js"></i> JavaScript</li>
-        <li><i class="fa-li fa fa-check-square"></i> jQuery</li>
-        <li><i class="fa-li fa fa-check-square"></i> C#</li>
-        <li><i class="fa-li fa fa-check-square"></i> SQL</li>
-        <li><i class="fa-li fa fa-code-branch"></i> git</li>
-        <li><i class="fa-li fab fa-github"></i> GitHub</li>
-        <li><i class="fa-li fab fa-wordpress"></i> WordPress</li>
-        <li><i class="fa-li fa fa-music"></i> Guitar Playing</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="container section" id="portfolio">
-  <h1 class="text-center">Here is some of my work</h1>
-  <div class="container-fluid work">
-
-    <a href="http://sheiladaniels.web44.net/" title="My Tribute Page" target="_blank"><img class="img-responsive placeholder" src="https://image.thum.io/get/http://sheiladaniels.web44.net/" alt="Tribute page" /></a>
-
-    <a href="http://ryansquotegenerator.surge.sh/" title="Random Quote Generator" target="_blank"><img class="img-responsive placeholder" src="images/quote.png" alt="Quote Generator" /></a>
-
-    <a href="https://codepen.io/RyanED/full/PKOaRZ/" title="Weather App using CodePen" target="_blank"><img class="img-responsive placeholder" src="images/weather.jpg" alt="Local Weather App" /></a>
-
-    <a href="http://ryanswikiviewer.surge.sh/" title="Wikipedia Search Viewer" target="_blank"><img class="img-responsive placeholder" src="images/wiki.jpg" alt="Wiki Search App" /></a>
-
-    <a href="https://colourgame.surge.sh/" title="Colour Guessing Game" target="_blank"><img class="img-responsive placeholder" src="images/colourgame.gif" alt="Colour Game" /></a>
     
-    <a href="https://twitchtvapp.surge.sh/" title="Twitch.tv Viewer" target="_blank"><img class="img-responsive placeholder" src="images/twitch.png" alt="Twitch.tv App" /></a>
-    
+    <div id="top" class="z-depth-5 scrollspy">
+        <div id="title" class="row">
+            <div class="col s7 valign-wrapper">
+                <div class="margin5">
+                    <h1>Ryan Daniels</h1>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="col s5">
+                <img class="responsive-img circle hoverable margin5 right" src="images/me.jpg" alt="Ryan">
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div id="desc" class="scrollspy">
+        <p>
+            I am a student at the Durban University of Technology currently completing a National Diploma in Information Technology, specializing in software development (C# & ASP.NET MVC). 
+            I am an intern at <a target="_blank" href="https://sobantu.co.za">Sobantu Technologies</a>. 
+            I am also self-learning Full-Stack Web Development. 
+        </p>
+        <p>
+            I seek a place of work where I can truly express my passion for solving problems and writing good code. 
+            I might be young but I see it as an opportunity to learn and grow each day. 
+            My ideal working environment is one where I am working in a team of highly skilled and passionate developers from whom I can learn and gain experience in the field. 
+            My ultimate goal is to improve on my craft each day, with each project, at every company I work for. 
+        </p>   
+        <p> 
+            I am ready to be mentored and gain the skills needed to solve bigger problems and write better code!
+        </p>
+        <p>
+            I also have a deep passion for music and I am a self-taught guitarist and singer.
+        </p>
+    </div>
+</header>
 
-  </div>
-</div>
+<main id="main" class="row z-depth-4 scrollspy">
+    <div class="col s5 right-shadow">
+        <div id="personal">
+            <h5>Personal</h5>
+            <table class="bordered">
+                <tr>
+                    <td><strong>Name</strong></td>
+                    <td>Ryan Daniels</td>
+                </tr>
+                <tr>
+                    <td><strong>Birthday</strong></td>
+                    <td>8th March 1996</td>
+                </tr>
+                <tr>
+                    <td><strong>Nationality</strong></td>
+                    <td>South African</td>
+                </tr>
+                <tr>
+                    <td><strong>Email</strong></td>
+                    <td><a href="mailto:ryan.aka.spike@gmail.com">ryan.aka.spike@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Phone</strong></td>
+                    <td>(+27) 84 050 2562</td>
+                </tr>
+            </table>
+        </div>
+        <div id="hobbies">
+            <h5>Hobbies</h5>
+            <div class="row">
+                <div class="col s4">
+                    <i class="medium material-icons">code</i>
+                    <span class="hobby">Writing Code</span>
+                </div>
+                <div class="col s4">
+                    <i class="medium material-icons">beach_access</i>
+                    <span class="hobby">Enjoying the Ocean</span>
+                </div>
+                <div class="col s4">
+                    <i class="medium material-icons">music_note</i>
+                    <span class="hobby">Playing Guitar</span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col s4">
+                    <i class="medium material-icons">videogame_asset</i>
+                    <span class="hobby">Video Games</span>
+                </div>
+                <div class="col s4">
+                    <i class="medium material-icons">book</i>
+                    <span class="hobby">Reading</span>
+                </div>
+                <div class="col s4">
+                    <i class="medium material-icons">directions_run</i>
+                    <span class="hobby">Running</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="container section" id="contact">
-  <h1>Get in touch</h1>
-  <h4>I'd love to hear from you</h4>
-  <ul class="fa-ul">
-    <li><a href="https://www.facebook.com/profile.php?id=100010836729111" target="_blank"><i class="fa-li fab fa-facebook"></i> Facebook</a></li>
-    <li><a href="https://github.com/Ryan-ED" target="_blank"><i class="fa-li fab fa-github"></i> GitHub</a></li>
-    <li><a href="https://www.freecodecamp.com/ryan-ed" target="_blank"><i class="fa-li fab fa-free-code-camp"></i> freeCodeCamp</a></li>
-    <li><a href="https://www.linkedin.com/in/ryan-daniels" target="_blank"><i class="fa-li fab fa-linkedin"></i> LinkedIn</a></li>
-    <li><a href="https://codepen.io/RyanED" target="_blank"><i class="fa-li fab fa-codepen"></i> CodePen</a></li>
-  </ul>
+    <div class="col s7">
+            <div class="row">
+                
+                <h5>Portfolio</h5>
+                
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s6"><a href="#skills">Skills</a></li>
+                        <li class="tab col s6"><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div id="skills">
+                    <!-- <h5>Professional Skills</h5> -->
+        
+                    <p><strong>HTML5</strong></p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 85%"></div>
+                    </div>
+        
+                    <p><strong>CSS3</strong></p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 80%"></div>
+                    </div>
+        
+                    <p><strong>JavaScript</strong></p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 65%"></div>
+                    </div>
+        
+                    <p><strong>Node.js</strong></p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 60%"></div>
+                    </div>
+        
+                    <p><strong>MongoDB</strong></p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div id="projects">
+                    <!-- <h5>Projects</h5> -->
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div class="card small">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="images/weather.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Local Weather App<i class="material-icons right">more_vert</i></span>
+                                    <p><a target="_blank" href="https://ryansweatherapp.surge.sh/">See it live</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">View the Local Weather<i class="material-icons right">close</i></span>
+                                    <p>A web application that provides you with your current location's weather conditions. Completed as part of my freeCodeCamp "Front End Certification".</p>
+                                    <p><a target="_blank" href="https://codepen.io/RyanED/full/PKOaRZ/">See the code on CodePen.io</a></p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col s12 m6">
+                            <div class="card small">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="images/twitch.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Twitch.tv App<i class="material-icons right">more_vert</i></span>
+                                    <p><a target="_blank" href="https://twitchtvapp.surge.sh/">See it live</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Twitch.tv App<i class="material-icons right">close</i></span>
+                                    <p>A web application that let's you view the current streaming status of selected Twitch.tv users. Completed as part of my freeCodeCamp "Front End Certification."</p>
+                                    <p><a target="_blank" href="https://codepen.io/RyanED/pen/boOZgO">See the code on CodePen.io</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- .row -->
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div class="card small">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="images/colourgame.gif">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Colour Guessing Game<i class="material-icons right">more_vert</i></span>
+                                    <p><a target="_blank" href="https://colourgame.surge.sh/">See it live</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">RGB Colour Guessing Game<i class="material-icons right">close</i></span>
+                                    <p>An interactive colour guessing game following the tutorial from "The Web Developer Bootcamp" on Udemy.</p>
+                                    <p><a target="_blank" href="https://github.com/Ryan-ED/color-game">See the GitHub repo</a></p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col s12 m6">
+                            <div class="card small">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="images/yelp.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">YelpCamp<i class="material-icons right">more_vert</i></span>
+                                    <p><a target="_blank" href="https://ryansyelpcamp.herokuapp.com/">See it live</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">YelpCamp - Yelp for Campgrounds!<i class="material-icons right">close</i></span>
+                                    <p>A "Yelp-like" web application for camping grounds. Based on the Yelp Camp project at the end of "The Web Developer Bootcamp" on Udemy.</p>
+                                    <p><a target="_blank" href="https://github.com/Ryan-ED/yelp-camp">See the GitHub repo</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- .row -->
+                </div> <!-- #projects -->
+            </div>
+    </div>
+</main>
+     
+<footer class="page-footer" id="contact">
+    <div class="row container">
+        <div class="col l2 s3">
+            <a href="https://github.com/Ryan-ED"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+        <div class="col l2 s3">
+            <a href="https://twitter.com/dev_ryaned"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <div class="col l2 s3">
+            <a href="https://codepen.io/RyanED"><i class="fab fa-codepen fa-2x"></i></a>
+        </div>
+        <div class="col l2 s3">
+            <a href="https://www.linkedin.com/in/ryan-daniels"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+    </div>
+</footer>
 
-  <img src="https://uproxx.files.wordpress.com/2015/08/rick-morty-catch-phrases-1.gif?w=650" alt="Funny GIF" class="img-responsive" />
-
-  <h2 style="color:#00b712; font-size:30px; font-family:Source Code Pro; margin-top:25px"><i class="fa fa-code"></i> Thank you</h2>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-
-<script src="js/index.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
